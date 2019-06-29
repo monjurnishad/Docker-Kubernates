@@ -20,5 +20,5 @@ docker ps --all
 docker create hello-world 
 docker start -a [insert id here]
 ````
-Here ```-a ``` logs output to the terminal. By default, ```run``` logs output.
+Here ```-a ```  logs output to the terminal. By default, ```run``` logs output.
 
