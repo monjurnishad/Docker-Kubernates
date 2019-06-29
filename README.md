@@ -11,14 +11,14 @@ docker run busybox ls
 ```
 docker ps
 ```
-4. List of containers ever created
+4. List of all containers ever created
 ```
 docker ps --all
 ```
 5. Run command creates and starts a container. You can do it seperately.
 ```
 docker create hello-world 
-docker start -a [insert id here]
+docker start -a [id]
 ````
   Here ```-a ```  logs output to the terminal. By default, ```run``` logs output.  
   
@@ -26,5 +26,9 @@ docker start -a [insert id here]
 ```
 docker system prune
 ```
-7. 
+7. To get logs from a container. Doesn't restart container.
+```
+docker logs [id]
+```
+8. 
 
