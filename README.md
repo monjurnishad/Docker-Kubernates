@@ -3,7 +3,7 @@
 ```
 docker run hello-world
 ```
-2. To execute a command after creating cotainer. The command should exist in the container.
+2. To start with a default command. The command should exist in the container. This default command cannot be changed later.
 ```
 docker run busybox ls
 ```
@@ -20,5 +20,11 @@ docker ps --all
 docker create hello-world 
 docker start -a [insert id here]
 ````
-Here ```-a ```  logs output to the terminal. By default, ```run``` logs output.
+  Here ```-a ```  logs output to the terminal. By default, ```run``` logs output.  
+  
+6. To completely remove all stopped containers
+```
+docker system prune
+```
+7. 
 
