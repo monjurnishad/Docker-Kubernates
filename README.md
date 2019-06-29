@@ -15,7 +15,7 @@ docker ps
 ```
 docker ps --all
 ```
-5. Run command creates and starts a container. You can do it seperately.
+5. ```run``` command creates and starts a container. You can do it seperately.
 ```
 docker create hello-world 
 docker start -a [id]
