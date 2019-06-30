@@ -64,15 +64,13 @@ docker run -it [image] sh
 docker build .
 docker run [id]
 ```
-2. [Docker file example]()
+2. [Docker file example](https://github.com/monjur-hasan/Docker-Kubernates/blob/master/redis-image/Dockerfile)
 3. Tagging an image convention: dockerID/projectName:version
 ```
 docker build -t monjurhasan/redis:latest .
 docker run monjurhasan/redis
 ```
 If no version is specified, latest one is pulled. Just the version on the end is the tag.
-  
-4. 
 
 
 
