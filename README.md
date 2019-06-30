@@ -59,6 +59,21 @@ docker exec -it [id] sh
 docker run -it [image] sh
 ```
 # Docker: Building Custom Images
+1. To build a dockerfile. File should be in that directory. Logs an ID.
+```
+docker build .
+docker run [id]
+```
+2. [Docker file example]()
+3. Tagging an image convention: dockerID/projectName:version
+```
+docker build -t monjurhasan/redis:latest .
+docker run monjurhasan/redis
+```
+If no version is specified, latest one is pulled. Just the version on the end is the tag.
+  
+4. 
+
 
 
 
