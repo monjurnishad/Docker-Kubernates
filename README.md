@@ -1,4 +1,4 @@
-# Docker Basics:
+# Docker: Manipulating Containers
 1. Getting started with docker
 ```
 docker run [image]
@@ -58,6 +58,7 @@ docker exec -it [id] sh
 ```
 docker run -it [image] sh
 ```
-14. 
+# Docker: Building Custom Images
+
 
 
