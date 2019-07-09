@@ -58,6 +58,12 @@ docker exec -it [id] sh
 ```
 docker run -it [image] sh
 ```
+14. Docker ```run``` with port mapping. Ports don't have to be identical.
+```
+docker run -p [local port]:[container port] [id/image]
+docker run -p 8080:8080 monjurhasan/simpleweb
+```
+
 # Docker: Building Custom Images
 1. To build a dockerfile. File should be in that directory. Logs an ID.
 ```
