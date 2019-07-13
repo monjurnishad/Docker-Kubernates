@@ -78,6 +78,36 @@ docker run monjurhasan/redis
 ```
 If no version is specified, latest one is pulled. Just the version on the end is the tag.
 
+# Docker Compose
+1. To build images
+```
+docker-compose up
+```
+2. To rebuild all the images inside
+```
+docker-compose up --build
+```
+3. Automatically creates a network that joins the containers  
+  
+4. Launch in background
+```
+docker-compose up -d
+```
+5. Stop all containers
+```
+docker-compose down
+```
+6. Automatic container Restarts
+```
+--> "no": never attempts to restart if it stops/crashes //in quote
+--> always: attempts to restart for  *any* reason
+--> on-failure: only restarts if container stops with an error code // not 0
+--> unless-stopped: always restart unless we forcibly stop it
+```
+7. Container status with compose. Need to run inside a directory containing yml file.s
+```
+docker-compose ps
+```
 
 
 
