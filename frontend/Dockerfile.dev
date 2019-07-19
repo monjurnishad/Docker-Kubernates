@@ -1,0 +1,10 @@
+from node:alpine
+
+WORKDIR '/app'
+
+COPY package.jon .
+RUN npm install
+
+COPY . . # better to leave it even if you're using volumes becuase...
+
+cmd["npm", "run", "start"]
