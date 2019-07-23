@@ -2,9 +2,9 @@ from node:alpine
 
 WORKDIR '/app'
 
-COPY package.jon .
+COPY package.json .
 RUN npm install
 
-COPY . . # better to leave it even if you're using volumes becuase...
+COPY . . 
 
-cmd["npm", "run", "start"]
+CMD ["npm", "run", "start"]
